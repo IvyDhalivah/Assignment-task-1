@@ -1,0 +1,33 @@
+package com.java.demo; 
+class Student 
+{ 
+int stdId; 
+String stdName; 
+static String collegeName = "CIT"; 
+{
+collegeName = "MIT"; 
+} 
+
+Student(int id, String name){ 
+stdId = id; 
+stdName = name; 
+} 
+
+void display() 
+{ 
+System.out.println(stdId+"  "+stdName+"  "+collegeName); 
+} 
+} 
+
+public class Demo 
+{ 
+public static void main(String args[]) 
+{ 
+Student.valueChange();
+
+Student StudentObj = new Student(211,"Kamal"); 
+Student StudentObj1 = new Student(125,"Shravan"); 
+
+StudentObj.display(); 
+StudentObj1.display(); 
+StudentObj2.display();
