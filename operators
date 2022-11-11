@@ -1,0 +1,24 @@
+package Operators;
+
+import java.util.Scanner;
+
+public class Relational {
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+    System.out.println("\nEnter the first number: ");
+
+    var f_num = input.nextInt();
+
+    System.out.println("Enter the second number: ");
+    var s_num = input.nextInt();
+
+    System.out.println("Is " + f_num + " equal to " + s_num + "?");
+    if (f_num == s_num) {
+        System.out.println(true);
+    } else {
+        System.out.println(false);
+    } ;
+    }
+}
